@@ -1,0 +1,58 @@
+minidocx_autogen/timestamp: \
+	C:/Program\ Files/CMake/share/cmake-4.3/Modules/CMakeCInformation.cmake \
+	C:/Program\ Files/CMake/share/cmake-4.3/Modules/CMakeCommonLanguageInclude.cmake \
+	C:/Program\ Files/CMake/share/cmake-4.3/Modules/CMakeLanguageInformation.cmake \
+	C:/Program\ Files/CMake/share/cmake-4.3/Modules/Compiler/GNU-C.cmake \
+	C:/Program\ Files/CMake/share/cmake-4.3/Modules/Compiler/GNU.cmake \
+	C:/Program\ Files/CMake/share/cmake-4.3/Modules/Internal/CMakeCLinkerInformation.cmake \
+	C:/Program\ Files/CMake/share/cmake-4.3/Modules/Internal/CMakeCommonLinkerInformation.cmake \
+	C:/Program\ Files/CMake/share/cmake-4.3/Modules/Platform/Linker/Windows-C.cmake \
+	C:/Program\ Files/CMake/share/cmake-4.3/Modules/Platform/Linker/Windows-GNU-C.cmake \
+	C:/Program\ Files/CMake/share/cmake-4.3/Modules/Platform/Linker/Windows-GNU.cmake \
+	C:/Program\ Files/CMake/share/cmake-4.3/Modules/Platform/Windows-GNU-C-ABI.cmake \
+	C:/Program\ Files/CMake/share/cmake-4.3/Modules/Platform/Windows-GNU-C.cmake \
+	C:/Program\ Files/CMake/share/cmake-4.3/Modules/Platform/Windows-GNU.cmake \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/build/CMakeFiles/4.3.0-rc1/CMakeCCompiler.cmake \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/3rdparty/pugixml-1.13/pugixml.cpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/3rdparty/pugixml-1.13/pugixml.hpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/CMakeLists.txt \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/cmake/util.cmake \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/config.hpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/minidocx.hpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/packaging/package.hpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/packaging/part.hpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/packaging/relationship.hpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/utils/base.hpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/utils/exceptions.hpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/utils/file.hpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/utils/geometry.hpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/utils/string.hpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/utils/zip.hpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/word/main/base.hpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/word/main/cell.hpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/word/main/container.hpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/word/main/document.hpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/word/main/paragraph.hpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/word/main/picture.hpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/word/main/properties/base.hpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/word/main/properties/paragraph.hpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/word/main/properties/picture.hpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/word/main/properties/richtext.hpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/word/main/properties/section.hpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/word/main/properties/table.hpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/word/main/richtext.hpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/word/main/section.hpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/word/main/table.hpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/word/numbering.hpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/word/styles.hpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/src/packaging/package.cpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/src/packaging/part.cpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/src/utils/exceptions.cpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/src/utils/file.cpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/src/utils/string.cpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/src/utils/zip.cpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/src/word/main/container.cpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/src/word/main/document.cpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/src/word/main/paragraph.cpp \
+	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/minidocx/src/word/main/table.cpp \
+	C:/Program\ Files/CMake/bin/cmake.exe

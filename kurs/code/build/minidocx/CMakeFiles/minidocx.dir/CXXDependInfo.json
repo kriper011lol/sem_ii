@@ -1,0 +1,83 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/build/minidocx",
+	"dir-cur-src" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx",
+	"dir-top-bld" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/build",
+	"dir-top-src" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"C:\\Users\\kriperlol\\Desktop\\\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435\\astu_c++\\sem_ii\\kurs\\code\\minidocx\\include\\minidocx",
+		"C:\\Users\\kriperlol\\Desktop\\\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435\\astu_c++\\sem_ii\\kurs\\code\\minidocx\\3rdparty\\miniz-3.0.2",
+		"C:\\Users\\kriperlol\\Desktop\\\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435\\astu_c++\\sem_ii\\kurs\\code\\minidocx\\3rdparty\\pugixml-1.13",
+		"minidocx\\minidocx_autogen\\include"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/build/minidocx/CMakeFiles/minidocx.dir",
+	"sources" : 
+	{
+		"minidocx/CMakeFiles/minidocx.dir/3rdparty/pugixml-1.13/pugixml.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/3rdparty/pugixml-1.13/pugixml.cpp"
+		},
+		"minidocx/CMakeFiles/minidocx.dir/src/packaging/package.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/src/packaging/package.cpp"
+		},
+		"minidocx/CMakeFiles/minidocx.dir/src/packaging/part.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/src/packaging/part.cpp"
+		},
+		"minidocx/CMakeFiles/minidocx.dir/src/utils/exceptions.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/src/utils/exceptions.cpp"
+		},
+		"minidocx/CMakeFiles/minidocx.dir/src/utils/file.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/src/utils/file.cpp"
+		},
+		"minidocx/CMakeFiles/minidocx.dir/src/utils/string.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/src/utils/string.cpp"
+		},
+		"minidocx/CMakeFiles/minidocx.dir/src/utils/zip.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/src/utils/zip.cpp"
+		},
+		"minidocx/CMakeFiles/minidocx.dir/src/word/main/container.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/src/word/main/container.cpp"
+		},
+		"minidocx/CMakeFiles/minidocx.dir/src/word/main/document.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/src/word/main/document.cpp"
+		},
+		"minidocx/CMakeFiles/minidocx.dir/src/word/main/paragraph.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/src/word/main/paragraph.cpp"
+		},
+		"minidocx/CMakeFiles/minidocx.dir/src/word/main/table.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/src/word/main/table.cpp"
+		}
+	}
+}

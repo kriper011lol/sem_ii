@@ -1,0 +1,10 @@
+C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/build/CMakeFiles/ComplexCalculator.dir
+C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/build/CMakeFiles/edit_cache.dir
+C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/build/CMakeFiles/rebuild_cache.dir
+C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/build/CMakeFiles/ComplexCalculator_autogen_timestamp_deps.dir
+C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/build/CMakeFiles/ComplexCalculator_autogen.dir
+C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/build/minidocx/CMakeFiles/minidocx.dir
+C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/build/minidocx/CMakeFiles/edit_cache.dir
+C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/build/minidocx/CMakeFiles/rebuild_cache.dir
+C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/build/minidocx/CMakeFiles/minidocx_autogen_timestamp_deps.dir
+C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/build/minidocx/CMakeFiles/minidocx_autogen.dir

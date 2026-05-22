@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "cppbuild",
+      "label": "build calculator",
+      "command": "C:\\msys64\\ucrt64\\bin\\g++.exe",
+      "args": [
+        "-std=c++17",
+        "-g",
+        "${workspaceFolder}\\kurs\\code\\main.cpp",
+        "-o",
+        "${workspaceFolder}\\kurs\\code\\main.exe",
+        "-mwindows",
+        "-lcomdlg32",
+        "-lgdi32",
+        "-luser32"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}\\kurs\\code"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}

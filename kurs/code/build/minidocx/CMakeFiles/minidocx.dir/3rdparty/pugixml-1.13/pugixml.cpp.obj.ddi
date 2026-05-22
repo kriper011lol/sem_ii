@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "minidocx\\CMakeFiles\\minidocx.dir\\3rdparty\\pugixml-1.13\\pugixml.cpp.obj",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}

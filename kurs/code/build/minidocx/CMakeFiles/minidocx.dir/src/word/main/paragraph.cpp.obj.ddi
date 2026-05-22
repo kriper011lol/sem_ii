@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "minidocx\\CMakeFiles\\minidocx.dir\\src\\word\\main\\paragraph.cpp.obj",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}

@@ -3,6 +3,11 @@
 #include <iomanip>
 using namespace std;
 
+double printZero(double value)
+{
+    return fabs(value) < 0.005 ? 0.0 : value;
+}
+
 int main()
 {
     double a, b, c, d, dx, dy;
@@ -26,7 +31,7 @@ int main()
     cout << setw(6) << "Y\\X" << " |";
 
     for (x = a; x <= b + 0.0001; x += dx)
-        cout << setw(7) << x;
+        cout << setw(7) << printZero(x);
 
     cout << endl;
 
@@ -36,7 +41,7 @@ int main()
     // таблица
     for (y = c; y <= d + 0.0001; y += dy)
     {
-        cout << setw(6) << y << " |";
+        cout << setw(6) << printZero(y) << " |";
 
         for (x = a; x <= b + 0.0001; x += dx)
         {
@@ -55,7 +60,7 @@ int main()
                 else
                 {
                     z = acos(value);
-                    cout << setw(7) << z;
+                    cout << setw(7) << printZero(z);
                 }
             }
         }

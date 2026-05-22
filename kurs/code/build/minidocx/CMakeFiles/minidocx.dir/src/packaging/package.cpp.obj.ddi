@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "minidocx\\CMakeFiles\\minidocx.dir\\src\\packaging\\package.cpp.obj",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}

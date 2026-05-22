@@ -1,0 +1,31 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/build/minidocx/examples",
+	"dir-cur-src" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/examples",
+	"dir-top-bld" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/build",
+	"dir-top-src" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"C:\\Users\\kriperlol\\Desktop\\\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435\\astu_c++\\sem_ii\\kurs\\code\\minidocx\\include",
+		"minidocx\\examples\\pict_autogen\\include"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/build/minidocx/examples/CMakeFiles/pict.dir",
+	"sources" : 
+	{
+		"minidocx/examples/CMakeFiles/pict.dir/picture.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/examples/picture.cpp"
+		}
+	}
+}
