@@ -283,14 +283,38 @@ std::string nowString() {
 
 // --- ЭКСПОРТ ---
 
+static std::string csvEscape(std::string_view text) {
+    std::string escaped;
+    escaped.reserve(text.size() + 2);
+    escaped += '"';
+    for (char ch : text) {
+        if (ch == '"') {
+            escaped += "\"\"";
+        } else {
+            escaped += ch;
+        }
+    }
+    escaped += '"';
+    return escaped;
+}
+
 bool saveCSV(const std::vector<HistoryItem>& history, const std::string& filename) {
-    std::ofstream f(filename);
+    std::ofstream f(filename, std::ios::binary);
     if (!f) return false;
-    // Используем UTF-8 BOM для корректного открытия в Excel
+    // Excel уже корректно открывал UTF-8 BOM в исходной версии.
+    // Проблема была только в неэкранированном ';' внутри выражения полярная(5;45).
     f << "\xEF\xBB\xBF";
-    f << "ID;Дата и время;Выражение;Результат;Статус\n";
+    f << "ID;"
+      << csvEscape("Дата и время") << ";"
+      << csvEscape("Выражение") << ";"
+      << csvEscape("Результат") << ";"
+      << csvEscape("Статус") << "\r\n";
     for (const auto& item : history) {
-        f << item.id << ";" << item.dateTime << ";" << item.expression << ";" << complexToString(item.result) << ";" << item.status << "\n";
+        f << item.id << ";"
+          << csvEscape(item.dateTime) << ";"
+          << csvEscape(item.expression) << ";"
+          << csvEscape(complexToString(item.result)) << ";"
+          << csvEscape(item.status) << "\r\n";
     }
     return true;
 }

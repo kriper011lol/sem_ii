@@ -11,6 +11,7 @@
 #include <QLineEdit>
 #include <QMessageBox>
 #include <QPushButton>
+#include <QScrollArea>
 #include <QTextEdit>
 #include <QVBoxLayout>
 #include <QResizeEvent>
@@ -213,7 +214,7 @@ void MainWindow::setupUi() {
     btnClear->setProperty("hoverHint", "Команда: Очистить\n\nУдалить выражение\nОчистить результаты");
 
     sampleContainer = new QWidget();
-    auto* flowSamples = new FlowLayout(sampleContainer, 12, 8, 8);
+    auto* flowSamples = new FlowLayout(sampleContainer, 0, 8, 8);
     struct SampleInfo { QString text; QString hint; };
     const QList<SampleInfo> sampleList = {
         {"2 + 3i", "Декартова форма: 2 + 3i\na = 2 (действительная часть)\nb = 3 (мнимая часть)"},
@@ -223,7 +224,7 @@ void MainWindow::setupUi() {
     };
     for (const auto& s : sampleList) {
         auto* b = createCommandButton(s.text, "btnSample");
-        b->setSizePolicy(QSizePolicy::Preferred, QSizePolicy::Fixed); 
+        b->setSizePolicy(QSizePolicy::Preferred, QSizePolicy::Fixed);
         b->setProperty("hoverHint", s.hint);
         connect(b, &QPushButton::clicked, this, &MainWindow::onSampleClicked);
         flowSamples->addWidget(b);
@@ -236,6 +237,7 @@ void MainWindow::setupUi() {
     queryGrid->addWidget(sampleContainer, 2, 0);
     queryGrid->addWidget(btnClear, 2, 1); 
     queryGrid->setColumnStretch(0, 1);
+    queryGrid->setColumnMinimumWidth(1, 170);
     m_contentLayout->addWidget(m_queryCard, 0, 0, 1, 2);
 
     // 2. Карточки результатов
@@ -254,6 +256,11 @@ void MainWindow::setupUi() {
     m_contentLayout->addWidget(cardResult, 2, 0);
     m_contentLayout->addWidget(cardTrig, 3, 0);
     m_contentLayout->addWidget(cardDetails, 4, 0);
+    m_contentLayout->setRowStretch(0, 0);
+    m_contentLayout->setRowStretch(1, 0);
+    m_contentLayout->setRowStretch(2, 0);
+    m_contentLayout->setRowStretch(3, 0);
+    m_contentLayout->setRowStretch(4, 0);
 
     // 3. История вычислений
     m_historyText = new QTextEdit();
@@ -290,7 +297,12 @@ void MainWindow::setupUi() {
     cardExport = createStyledCard("Экспорт данных", exportPanel);
     m_contentLayout->addWidget(cardExport, 4, 1);
 
-    m_rootLayout->addWidget(m_contentWidget, 1);
+    auto* contentScroll = new QScrollArea();
+    contentScroll->setObjectName("contentScroll");
+    contentScroll->setWidgetResizable(true);
+    contentScroll->setFrameShape(QFrame::NoFrame);
+    contentScroll->setWidget(m_contentWidget);
+    m_rootLayout->addWidget(contentScroll, 1);
 
     // Сигналы
     connect(helpButton, &QPushButton::clicked, this, &MainWindow::onHelpRequested);
@@ -330,13 +342,14 @@ bool MainWindow::eventFilter(QObject* watched, QEvent* event) {
 void MainWindow::resizeEvent(QResizeEvent* event) {
     QMainWindow::resizeEvent(event);
     
-    double scaleX = static_cast<double>(width()) / DESIGN_WIDTH;
-    double scaleY = static_cast<double>(height()) / DESIGN_HEIGHT;
-    
-    // Взвешенное масштабирование для шрифтов и отступов
-    double scale = (scaleX + scaleY) / 2.0;
-    if (scale < 0.75) scale = 0.75; 
-    if (scale > 1.5) scale = 1.5;
+    const double scaleX = static_cast<double>(width()) / DESIGN_WIDTH;
+    const double scaleY = static_cast<double>(height()) / DESIGN_HEIGHT;
+
+    // Вверх макет почти не масштабируем: в полноэкранном режиме он должен оставаться
+    // читаемым и стабильным, а не раздувать карточки до обрезания нижних кнопок.
+    double scale = qMin(scaleX, scaleY);
+    if (scale < 0.75) scale = 0.75;
+    if (scale > 1.05) scale = 1.05;
 
     applyStyleSheet(scale);
     updateLayout(scale);
@@ -389,8 +402,8 @@ void MainWindow::updateLayout(double scale) {
         }
     };
 
-    setS(btnCalculate, 170, 44); 
-    setS(btnClear, 170, 36);     
+    setS(btnCalculate, 170, 44);
+    setS(btnClear, 170, 36);
     setS(helpButton, 100, 36);
     setS(m_themeButton, 140, 36);
     
@@ -426,11 +439,27 @@ void MainWindow::updateLayout(double scale) {
         }
     }
 
-    if (m_queryEdit) m_queryEdit->setMinimumHeight(qMax(32, qRound(42 * scale)));
+    if (m_queryEdit) {
+        m_queryEdit->setFixedHeight(qMax(34, qRound(42 * scale)));
+    }
+    if (sampleContainer) {
+        sampleContainer->setFixedHeight(qMax(36, qRound(40 * scale)));
+        sampleContainer->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Fixed);
+    }
+    if (m_queryCard) {
+        m_queryCard->setFixedHeight(qMax(136, qRound(150 * scale)));
+        if (auto* queryLayout = qobject_cast<QGridLayout*>(m_queryCard->layout())) {
+            const int margin = qMax(10, qRound(12 * scale));
+            queryLayout->setContentsMargins(margin, margin, margin, margin);
+            queryLayout->setHorizontalSpacing(qMax(8, qRound(10 * scale)));
+            queryLayout->setVerticalSpacing(qMax(8, qRound(10 * scale)));
+        }
+    }
 
     auto setCard = [&](QFrame* c, int h) {
         if (!c) return;
-        c->setMinimumHeight(qMax(qRound(h * 0.65), qRound(h * scale)));
+        c->setFixedHeight(qMax(qRound(h * 0.8), qRound(h * scale)));
+        c->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Fixed);
         auto* lay = c->layout();
         if (lay) {
             int hm = qMax(8, qRound(16 * scale));
@@ -442,9 +471,14 @@ void MainWindow::updateLayout(double scale) {
     setCard(cardInterpretation, 100);
     setCard(cardResult, 100);
     setCard(cardTrig, 130);
-    setCard(cardDetails, 150);
-    setCard(cardHistory, 350);
-    setCard(cardExport, 180);
+    setCard(cardDetails, 220);
+    setCard(cardHistory, 362);
+    setCard(cardExport, 220);
+
+    if (m_contentWidget) {
+        m_contentWidget->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Fixed);
+        m_contentWidget->adjustSize();
+    }
 
     if (univLabel) univLabel->setMinimumWidth(qRound(340 * scale));
     if (infoLabel) infoLabel->setMinimumWidth(qRound(340 * scale));
@@ -505,7 +539,7 @@ void MainWindow::applyStyleSheet(double scale) {
     if (fsCardTitle < 10) fsCardTitle = 10;
 
     const QString dark = QString(R"(
-        #centralWidget, #contentWidget { background: #0C1018; }
+        #centralWidget, #contentWidget, #contentScroll { background: #0C1018; }
         #centralWidget QLabel, #centralWidget QPushButton, #centralWidget QLineEdit, #centralWidget QFrame { 
             color: #EBF0F8; font-family: "Segoe UI", "Arial"; font-size: %1px; 
         }
@@ -547,7 +581,7 @@ void MainWindow::applyStyleSheet(double scale) {
     )").arg(fsBase).arg(fsTitle).arg(fsCardTitle).arg(fsEdit).arg(qMax(10, qRound(11*scale))).arg(fsSubtitle);
 
     const QString light = QString(R"(
-        #centralWidget, #contentWidget { background: #F7F3EC; }
+        #centralWidget, #contentWidget, #contentScroll { background: #F7F3EC; }
         #centralWidget QLabel, #centralWidget QPushButton, #centralWidget QLineEdit, #centralWidget QFrame { 
             color: #2F2A25; font-family: "Segoe UI", "Arial"; font-size: %1px; 
         }
