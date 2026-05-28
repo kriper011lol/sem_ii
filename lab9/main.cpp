@@ -1,8 +1,16 @@
 #include <iostream>
+#ifdef _WIN32
+#include <windows.h>
+#endif
 using namespace std;
 
 int main()
 {
+#ifdef _WIN32
+  SetConsoleCP(CP_UTF8);
+  SetConsoleOutputCP(CP_UTF8);
+#endif
+
   int x, y, z; // три целых числа
   int choice;  // номер выбранного способа
   int Max;     // переменная для хранения максимума

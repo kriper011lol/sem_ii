@@ -1,0 +1,27 @@
+# ninja log v7
+10	237	8015982706637462	minidocx/minidocx_autogen/timestamp	5e1152c819a80d20
+10	237	8015982706637462	minidocx/minidocx_autogen/mocs_compilation.cpp	5e1152c819a80d20
+10	237	8015982706637462	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/build-release/minidocx/minidocx_autogen/timestamp	5e1152c819a80d20
+10	237	8015982706637462	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/build-release/minidocx/minidocx_autogen/mocs_compilation.cpp	5e1152c819a80d20
+239	601	8015982706827513	minidocx/CMakeFiles/minidocx.dir/minidocx_autogen/mocs_compilation.cpp.obj	26128e1808c88b71
+260	1376	8015982707037440	minidocx/CMakeFiles/minidocx.dir/src/utils/string.cpp.obj	5c7ad424191dbfe6
+256	1541	8015982706997430	minidocx/CMakeFiles/minidocx.dir/src/utils/exceptions.cpp.obj	b95726c71393fc2f
+255	2097	8015982706987432	minidocx/CMakeFiles/minidocx.dir/src/packaging/part.cpp.obj	ad007a89e0776aff
+258	2306	8015982707017455	minidocx/CMakeFiles/minidocx.dir/src/utils/file.cpp.obj	5fa501747a42654
+268	2483	8015982707116547	minidocx/CMakeFiles/minidocx.dir/src/word/main/paragraph.cpp.obj	d3180710b2236225
+264	2614	8015982707076554	minidocx/CMakeFiles/minidocx.dir/src/word/main/container.cpp.obj	deecc0406ea5784c
+271	2703	8015982707146544	minidocx/CMakeFiles/minidocx.dir/src/word/main/table.cpp.obj	2ed5db079d9bcb7c
+253	3842	8015982706967562	minidocx/CMakeFiles/minidocx.dir/src/packaging/package.cpp.obj	8a7e3f2a5048ea6c
+266	5257	8015982707096559	minidocx/CMakeFiles/minidocx.dir/src/word/main/document.cpp.obj	fa5bb9c4431f70de
+262	6252	8015982707056462	minidocx/CMakeFiles/minidocx.dir/src/utils/zip.cpp.obj	f32c644ac804f70d
+275	7030	8015982707186554	minidocx/CMakeFiles/minidocx.dir/3rdparty/pugixml-1.13/pugixml.cpp.obj	fd0486a08eaff4
+7030	7142	8015982774735769	minidocx/bin/lib/libminidocx.a	de40eee15e31c5ed
+7142	7864	8015982782887920	ComplexCalculator_autogen/timestamp	95387c4f8ae13b9b
+7142	7864	8015982782887920	ComplexCalculator_autogen/mocs_compilation.cpp	95387c4f8ae13b9b
+7142	7864	8015982782887920	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/build-release/ComplexCalculator_autogen/timestamp	95387c4f8ae13b9b
+7142	7864	8015982782887920	C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/build-release/ComplexCalculator_autogen/mocs_compilation.cpp	95387c4f8ae13b9b
+7866	10599	8015982783088012	CMakeFiles/ComplexCalculator.dir/ComplexCalculator_autogen/mocs_compilation.cpp.obj	f63112ca52f7d32f
+7881	10602	8015982783247928	CMakeFiles/ComplexCalculator.dir/main.cpp.obj	3c1581ff5e4b6737
+7878	12168	8015982783217922	CMakeFiles/ComplexCalculator.dir/core.cpp.obj	8a90c3d557f9dc84
+7879	12725	8015982783227925	CMakeFiles/ComplexCalculator.dir/mainwindow.cpp.obj	118bfb7630c81618
+12725	12923	8015982831683446	ComplexCalculator.exe	d6986b370d1c8540

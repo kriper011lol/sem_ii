@@ -1,0 +1,396 @@
+{
+	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
+	"BUILD_DIR" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/build-release/minidocx/minidocx_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/build-release",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/build-release/minidocx",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx",
+	"CMAKE_EXECUTABLE" : "C:/Program Files/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/CMakeLists.txt",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCompilerIdDetection.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/ADSP-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/ARMCC-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/ARMClang-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/AppleClang-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/Clang-DetermineCompilerInternal.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/Borland-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/Bruce-C-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/Clang-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/Clang-DetermineCompilerInternal.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/Compaq-C-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/Cray-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/CrayClang-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/Diab-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/Embarcadero-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/Fujitsu-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/GHS-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/GNU-C-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/HP-C-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/IAR-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/Intel-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/LCC-C-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/MSVC-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/NVHPC-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/NVIDIA-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/OrangeC-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/PGI-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/PathScale-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/Renesas-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/SCO-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/SDCC-C-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/SunPro-C-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/TI-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/TIClang-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/Tasking-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/Watcom-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/XL-C-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/XLClang-C-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/zOS-C-DetermineCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompiler.cmake.in",
+		"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/build-release/CMakeFiles/4.3.0-rc1/CMakeCCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCInformation.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeLanguageInformation.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/GNU-C.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/GNU.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-GNU-C.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-GNU.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCommonLanguageInclude.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCompilerCommon.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeParseImplicitIncludeInfo.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeParseImplicitLinkInfo.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeParseLibraryArchitecture.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCompilerCommon.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerSupport.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/FeatureTesting.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompiler.cmake.in",
+		"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/build-release/CMakeFiles/4.3.0-rc1/CMakeCCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-GNU-C-ABI.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeCLinkerInformation.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeCommonLinkerInformation.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Linker/GNU-C.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Linker/GNU.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Linker/Windows-GNU-C.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Linker/Windows-GNU.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeInspectCLinker.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompiler.cmake.in",
+		"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/cmake/util.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/build-release/minidocx/minidocx_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "minidocx_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/3rdparty/pugixml-1.13/pugixml.hpp",
+			"MU",
+			"JL3DVPDI2T/moc_pugixml.cpp",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/config.hpp",
+			"MU",
+			"E2TYNK2T7S/moc_config.cpp",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/minidocx.hpp",
+			"MU",
+			"E2TYNK2T7S/moc_minidocx.cpp",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/packaging/package.hpp",
+			"MU",
+			"PH5VZTDKXO/moc_package.cpp",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/packaging/part.hpp",
+			"MU",
+			"PH5VZTDKXO/moc_part.cpp",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/packaging/relationship.hpp",
+			"MU",
+			"PH5VZTDKXO/moc_relationship.cpp",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/utils/base.hpp",
+			"MU",
+			"NAMSLBHSPO/moc_base.cpp",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/utils/exceptions.hpp",
+			"MU",
+			"NAMSLBHSPO/moc_exceptions.cpp",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/utils/file.hpp",
+			"MU",
+			"NAMSLBHSPO/moc_file.cpp",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/utils/geometry.hpp",
+			"MU",
+			"NAMSLBHSPO/moc_geometry.cpp",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/utils/string.hpp",
+			"MU",
+			"NAMSLBHSPO/moc_string.cpp",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/utils/zip.hpp",
+			"MU",
+			"NAMSLBHSPO/moc_zip.cpp",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/word/main/base.hpp",
+			"MU",
+			"IQBJXA47QZ/moc_base.cpp",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/word/main/cell.hpp",
+			"MU",
+			"IQBJXA47QZ/moc_cell.cpp",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/word/main/container.hpp",
+			"MU",
+			"IQBJXA47QZ/moc_container.cpp",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/word/main/document.hpp",
+			"MU",
+			"IQBJXA47QZ/moc_document.cpp",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/word/main/paragraph.hpp",
+			"MU",
+			"IQBJXA47QZ/moc_paragraph.cpp",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/word/main/picture.hpp",
+			"MU",
+			"IQBJXA47QZ/moc_picture.cpp",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/word/main/properties/base.hpp",
+			"MU",
+			"I3FO5JZAMI/moc_base.cpp",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/word/main/properties/paragraph.hpp",
+			"MU",
+			"I3FO5JZAMI/moc_paragraph.cpp",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/word/main/properties/picture.hpp",
+			"MU",
+			"I3FO5JZAMI/moc_picture.cpp",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/word/main/properties/richtext.hpp",
+			"MU",
+			"I3FO5JZAMI/moc_richtext.cpp",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/word/main/properties/section.hpp",
+			"MU",
+			"I3FO5JZAMI/moc_section.cpp",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/word/main/properties/table.hpp",
+			"MU",
+			"I3FO5JZAMI/moc_table.cpp",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/word/main/richtext.hpp",
+			"MU",
+			"IQBJXA47QZ/moc_richtext.cpp",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/word/main/section.hpp",
+			"MU",
+			"IQBJXA47QZ/moc_section.cpp",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/word/main/table.hpp",
+			"MU",
+			"IQBJXA47QZ/moc_table.cpp",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/word/numbering.hpp",
+			"MU",
+			"JUWKRMAN7B/moc_numbering.cpp",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx/word/styles.hpp",
+			"MU",
+			"JUWKRMAN7B/moc_styles.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/build-release/minidocx/minidocx_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/build-release/minidocx/minidocx_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "MINIDOCX_NAMESPACE=md" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/include/minidocx",
+		"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/3rdparty/miniz-3.0.2",
+		"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/3rdparty/pugixml-1.13",
+		"C:/msys64/ucrt64/include/c++/15.2.0",
+		"C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32",
+		"C:/msys64/ucrt64/include/c++/15.2.0/backward",
+		"C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include",
+		"C:/msys64/ucrt64/include",
+		"C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"C:/msys64/ucrt64/bin/c++.exe",
+		"-std=c++20",
+		"-w",
+		"-dM",
+		"-E",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/build-release/minidocx/minidocx_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/build-release/minidocx/CMakeFiles/minidocx_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "C:/msys64/ucrt64/share/qt6/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "C:/msys64/ucrt64/share/qt6/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 11,
+	"SETTINGS_FILE" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/build-release/minidocx/CMakeFiles/minidocx_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/3rdparty/pugixml-1.13/pugixml.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/src/packaging/package.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/src/packaging/part.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/src/utils/exceptions.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/src/utils/file.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/src/utils/string.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/src/utils/zip.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/src/word/main/container.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/src/word/main/document.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/src/word/main/paragraph.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/minidocx/src/word/main/table.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}
