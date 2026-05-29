@@ -1,27 +1,40 @@
 cmake_minimum_required(VERSION 3.16)
 
-# Название проекта и используемый язык
 project(ComplexCalculator VERSION 1.0.0 LANGUAGES CXX)
 
-# Задаем стандарт C++17 (Qt6 требует минимум C++17)
+# Режим сборки по умолчанию
+if(NOT CMAKE_BUILD_TYPE)
+    set(CMAKE_BUILD_TYPE "Release")
+endif()
+
+# Стандарт C++20
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_SCAN_FOR_MODULES OFF)
-# Отключаем специфичные расширения компилятора (например, gnu++17), используем чистый стандарт
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-# Включаем автоматическую генерацию мета-кода для Qt (MOC, UIC, RCC)
+# Автогенерация Qt файлов
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTORCC ON)
 
-# Ищем компоненты Qt6
-find_package(Qt6 COMPONENTS Widgets Gui GuiPrivate REQUIRED)
-find_package(QXlsxQt6 REQUIRED)
+# Поиск Qt6 (Core, Gui, Widgets)
+find_package(Qt6 COMPONENTS Core Gui Widgets REQUIRED)
 
+# Интеграция QXlsx через FetchContent
+include(FetchContent)
+FetchContent_Declare(
+    QXlsx
+    GIT_REPOSITORY https://github.com/QtExcel/QXlsx.git
+    GIT_TAG        master
+    SOURCE_SUBDIR  QXlsx
+)
+FetchContent_MakeAvailable(QXlsx)
+
+# Подключение minidocx
 add_subdirectory(minidocx)
 
-# Исходные файлы разбиты на ядро и GUI
+# Исходные файлы
 set(CORE_SOURCES
     core.h
     core.cpp
@@ -34,18 +47,22 @@ set(GUI_SOURCES
 )
 
 # Создаем исполняемый файл
-add_executable(${PROJECT_NAME} ${CORE_SOURCES} ${GUI_SOURCES})
+add_executable(${PROJECT_NAME} WIN32 ${CORE_SOURCES} ${GUI_SOURCES})
 
-# Прячем консоль Windows в релизной сборке. 
-if(WIN32)
-    set_property(TARGET ${PROJECT_NAME} PROPERTY WIN32_EXECUTABLE ON)
-endif()
+# Линковка
+# Примечание: QXlsx при использовании FetchContent обычно экспортирует цель QXlsx
+target_link_libraries(${PROJECT_NAME} PRIVATE 
+    Qt6::Core 
+    Qt6::Gui 
+    Qt6::Widgets 
+    QXlsx
+    minidocx
+)
 
-# Линкуем библиотеку Qt6::Widgets к нашему проекту
-target_link_libraries(${PROJECT_NAME} PRIVATE Qt6::Widgets QXlsx::QXlsx minidocx)
+# Пути к заголовкам minidocx
 target_include_directories(${PROJECT_NAME} PRIVATE minidocx/include/minidocx)
 
-# Русские строки в исходниках должны одинаково читаться GCC/Clang/MSVC на Windows, Linux и macOS.
+# Поддержка UTF-8
 if(MSVC)
     target_compile_options(${PROJECT_NAME} PRIVATE /utf-8)
 else()

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/build-release/_deps/qxlsx-subbuild/CMakeFiles/qxlsx-populate"
+		},
+		{
+			"file" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/build-release/_deps/qxlsx-subbuild/CMakeFiles/qxlsx-populate.rule"
+		},
+		{
+			"file" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/build-release/_deps/qxlsx-subbuild/CMakeFiles/qxlsx-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/build-release/_deps/qxlsx-subbuild/qxlsx-populate-prefix/src/qxlsx-populate-stamp/qxlsx-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/build-release/_deps/qxlsx-subbuild/qxlsx-populate-prefix/src/qxlsx-populate-stamp/qxlsx-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/build-release/_deps/qxlsx-subbuild/qxlsx-populate-prefix/src/qxlsx-populate-stamp/qxlsx-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/build-release/_deps/qxlsx-subbuild/qxlsx-populate-prefix/src/qxlsx-populate-stamp/qxlsx-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/build-release/_deps/qxlsx-subbuild/qxlsx-populate-prefix/src/qxlsx-populate-stamp/qxlsx-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/build-release/_deps/qxlsx-subbuild/qxlsx-populate-prefix/src/qxlsx-populate-stamp/qxlsx-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/build-release/_deps/qxlsx-subbuild/qxlsx-populate-prefix/src/qxlsx-populate-stamp/qxlsx-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/kriperlol/Desktop/\u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435/astu_c++/sem_ii/kurs/code/build-release/_deps/qxlsx-subbuild/qxlsx-populate-prefix/src/qxlsx-populate-stamp/qxlsx-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qxlsx-populate"
+		],
+		"name" : "qxlsx-populate"
+	}
+}

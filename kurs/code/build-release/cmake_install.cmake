@@ -39,6 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/build-release/_deps/qxlsx-build/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/build-release/minidocx/cmake_install.cmake")
 endif()
 

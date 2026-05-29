@@ -1,0 +1,14 @@
+# Target labels
+ qxlsx-populate
+# Source files and their labels
+C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/build-release/_deps/qxlsx-subbuild/CMakeFiles/qxlsx-populate
+C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/build-release/_deps/qxlsx-subbuild/CMakeFiles/qxlsx-populate.rule
+C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/build-release/_deps/qxlsx-subbuild/CMakeFiles/qxlsx-populate-complete.rule
+C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/build-release/_deps/qxlsx-subbuild/qxlsx-populate-prefix/src/qxlsx-populate-stamp/qxlsx-populate-build.rule
+C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/build-release/_deps/qxlsx-subbuild/qxlsx-populate-prefix/src/qxlsx-populate-stamp/qxlsx-populate-configure.rule
+C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/build-release/_deps/qxlsx-subbuild/qxlsx-populate-prefix/src/qxlsx-populate-stamp/qxlsx-populate-download.rule
+C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/build-release/_deps/qxlsx-subbuild/qxlsx-populate-prefix/src/qxlsx-populate-stamp/qxlsx-populate-install.rule
+C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/build-release/_deps/qxlsx-subbuild/qxlsx-populate-prefix/src/qxlsx-populate-stamp/qxlsx-populate-mkdir.rule
+C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/build-release/_deps/qxlsx-subbuild/qxlsx-populate-prefix/src/qxlsx-populate-stamp/qxlsx-populate-patch.rule
+C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/build-release/_deps/qxlsx-subbuild/qxlsx-populate-prefix/src/qxlsx-populate-stamp/qxlsx-populate-test.rule
+C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/build-release/_deps/qxlsx-subbuild/qxlsx-populate-prefix/src/qxlsx-populate-stamp/qxlsx-populate-update.rule
