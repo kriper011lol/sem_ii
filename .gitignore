@@ -1,0 +1,46 @@
+# .gitignore for ASTU C++ Semester II
+
+# Build and Artifacts
+build/
+build-*/
+[Bb]in/
+[Oo]bj/
+*.exe
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# Qt specifics
+*.qmake.stash
+*.pro.user
+*.pro.user.*
+ui_*.h
+moc_*.cpp
+qrc_*.cpp
+*.moc
+
+# Whitelist the dist folder for deployment
+!kurs/code/dist/
+!kurs/code/dist/**/*
+
+# IDEs and Editors
+.vscode/
+.idea/
+.vs/
+*.user
+*.suo
+*.pdb
+
+# OS junk
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.7z
+*.zip
+*.evb

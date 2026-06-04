@@ -502,5 +502,4 @@
 #define __cpp_init_captures 201803L
 #define __ATOMIC_ACQ_REL 4
 #define __ATOMIC_RELEASE 3
-#define QXlsx_SHAREDLIB 1
 #define __declspec(x) __attribute__((x))

@@ -1,5 +1,7 @@
+set(__QT_DEPLOY_TARGET_QXlsx_FILE C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/build/_deps/qxlsx-build/libQXlsxQt6.a)
+set(__QT_DEPLOY_TARGET_QXlsx_TYPE STATIC_LIBRARY)
 set(__QT_DEPLOY_TARGET_minidocx_FILE C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/build/minidocx/bin/lib/libminidocx.a)
 set(__QT_DEPLOY_TARGET_minidocx_TYPE STATIC_LIBRARY)
 set(__QT_DEPLOY_TARGET_ComplexCalculator_FILE C:/Users/kriperlol/Desktop/лабораторные/astu_c++/sem_ii/kurs/code/build/ComplexCalculator.exe)
 set(__QT_DEPLOY_TARGET_ComplexCalculator_TYPE EXECUTABLE)
-set(__QT_DEPLOY_TARGET_ComplexCalculator_RUNTIME_DLLS C:/msys64/ucrt64/bin/Qt6Widgets.dll;C:/msys64/ucrt64/bin/libQXlsxQt6-1.dll;C:/msys64/ucrt64/bin/Qt6Gui.dll;C:/msys64/ucrt64/bin/Qt6Core.dll)
+set(__QT_DEPLOY_TARGET_ComplexCalculator_RUNTIME_DLLS C:/msys64/ucrt64/bin/Qt6Widgets.dll;C:/msys64/ucrt64/bin/Qt6Gui.dll;C:/msys64/ucrt64/bin/Qt6Core.dll)
